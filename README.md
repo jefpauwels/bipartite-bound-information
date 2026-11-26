@@ -52,10 +52,9 @@ python3 -c "from example3_parity_family import threshold_decimal; print(threshol
 
 For the two-copy filter this gives approximately `3.917737700`. The proof in
 Sec. S9.4 establishes that its criterion holds above this threshold, up to and
-including `alpha = 5`. For general `m` and `r`, the helper does not prove
-uniqueness of the crossing or the full working range.
+including `alpha = 5`.
 
 ## Version and license
 
-This is version **v1.0.0** of the accompanying code, distributed under the
+This is version **v1.0.1** of the accompanying code, distributed under the
 [MIT License](LICENSE).

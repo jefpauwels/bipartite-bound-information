@@ -13,10 +13,6 @@ For c in {1,2}, the four GGK filtering sets are the expanded copies of
 
 Only the affine coset C_c={u: sum u_i=c} matters.  A word in C_c has a
 disjoint-support partner in C_c iff it contains at least one zero.
-
-The weighted residue sums are computed by a three-state dynamic program, so
-the calculation uses O(m) recurrence steps rather than enumerating O(3^m) words.
-Rational alpha values are handled with exact integers.
 """
 
 from __future__ import annotations
